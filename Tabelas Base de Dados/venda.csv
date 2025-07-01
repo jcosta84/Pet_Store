@@ -1,0 +1,25 @@
+"id_venda";"data";"usuario";"forma_pagamento";"valor_recebido";"troco"
+1;"2025-06-05 17:54:48";"Paulo Costa";"Dinheiro";6400.0;50.0
+2;"2025-06-05 17:58:04";"Paulo Costa";"Dinheiro";4600.0;50.0
+3;"2025-06-05 17:59:55";"Paulo Costa";"Dinheiro";4600.0;50.0
+4;"2025-06-05 18:03:21";"Paulo Costa";"Dinheiro";4600.0;50.0
+5;"2025-06-05 18:59:39";"Paulo Costa";"Dinheiro";4500.0;300.0
+6;"2025-06-05 19:00:04";"Paulo Costa";"Dinheiro";1800.0;0.0
+7;"2025-06-05 19:02:07";"Paulo Costa";"Dinheiro";4800.0;50.0
+8;"2025-06-05 19:03:11";"Paulo Costa";"Dinheiro";3400.0;100.0
+9;"2025-06-05 19:05:34";"Paulo Costa";"Dinheiro";4300.0;100.0
+10;"2025-06-05 19:06:01";"Paulo Costa";"Cartão";0.0;0.0
+11;"2025-06-05 19:09:10";"Paulo Costa";"Dinheiro";2000.0;50.0
+12;"2025-06-06 20:52:31";"Paulo Costa";"Dinheiro";600.0;0.0
+13;"2025-06-06 21:01:28";"Paulo Costa";"Dinheiro";600.0;0.0
+14;"2025-06-06 21:02:10";"Paulo Costa";"Dinheiro";600.0;0.0
+15;"2025-06-06 21:02:50";"Paulo Costa";"Dinheiro";600.0;0.0
+16;"2025-06-06 21:04:06";"Paulo Costa";"Dinheiro";600.0;0.0
+17;"2025-06-06 21:06:47";"Paulo Costa";"Dinheiro";600.0;0.0
+18;"2025-06-06 21:08:38";"Paulo Costa";"Dinheiro";600.0;0.0
+19;"2025-06-07 15:21:19";"Paulo Costa";"Dinheiro";1800.0;0.0
+20;"2025-06-07 15:22:25";"Paulo Costa";"Dinheiro";1800.0;0.0
+21;"2025-06-07 15:23:01";"Paulo Costa";"Dinheiro";1800.0;0.0
+22;"2025-06-07 15:25:36";"Paulo Costa";"Dinheiro";1800.0;0.0
+23;"2025-06-07 15:28:44";"Paulo Costa";"Cartão";0.0;0.0
+24;"2025-06-07 15:49:57";"Paulo Costa";"Dinheiro";2990.0;0.0
