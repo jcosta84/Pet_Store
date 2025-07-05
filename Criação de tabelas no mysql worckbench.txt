@@ -1,0 +1,41 @@
+-- Tabela: usuarios
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(100),
+    nivel ENUM('admin', 'gerente', 'atendente'),
+    compra_id_compra INT,
+    FOREIGN KEY (compra_id_compra) REFERENCES compra(id_compra)
+);
+
+-- Tabela: cadastro_produto
+CREATE TABLE cadastro_produto (
+    id_prod INT AUTO_INCREMENT PRIMARY KEY,
+    produto VARCHAR(50),
+    preco INT
+);
+
+-- Tabela: venda
+CREATE TABLE venda (
+    id_venda INT AUTO_INCREMENT PRIMARY KEY,
+    data DATETIME,
+    usuario VARCHAR(100),
+    forma_pagamento VARCHAR(20),
+    valor_recebido DECIMAL(10,2),
+    troco DECIMAL(10,2)
+);
+
+-- Tabela: compra
+CREATE TABLE compra (
+    id_compra INT AUTO_INCREMENT PRIMARY KEY,
+    produto VARCHAR(100),
+    quantidade INT,
+    preco_unitario INT,
+    total INT,
+    forma_pagamento VARCHAR(20),
+    compra TIMESTAMP,
+    id_venda INT,
+    cadastro_produto_id_prod INT,
+    FOREIGN KEY (id_venda) REFERENCES venda(id_venda),
+    FOREIGN KEY (cadastro_produto_id_prod) REFERENCES cadastro_produto(id_prod)
+);
