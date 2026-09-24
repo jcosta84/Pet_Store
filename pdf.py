@@ -3,7 +3,7 @@ import re
 import pandas as pd
 
 # Lê o PDF
-with fitz.open(r"C:\Users\pcost\PycharmProjects\Geral_Departamento\1.pdf") as pdf:
+with fitz.open(r"C:\Users\EDEC\Projectos\Pessoal\Pet_Store\1.pdf") as pdf:
     texto = ""
     for pagina in pdf:
         texto += pagina.get_text()
